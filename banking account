@@ -1,0 +1,22 @@
+class Danielle():
+     def __init__(self,name,account_number,email_id,contact_number,bal=0):
+        self.name=name
+        self.account=account_number
+        self.email=email_id
+        self.balance=bal
+        self.contact=contact_number
+        print(f"the account name is {self.name} account number is xxxxxx{self.account[-4:]} email id is {self.email}contact number is xxxxxx{self.contact[-4:]} and balance is ${self.balance}")
+    
+     def deposit(self,depo):
+            self.balance+=depo   ######this is equal to self.balance=self.balance+depo
+            print(f" the deposit amount is ${depo} and total balance is ${self.balance}")
+            
+        
+     
+     def withdrawl(self,with_drawl):
+        self.balance-=with_drawl   #### this is equal to self.balance=self.balance-withdrawl
+        print(f"the {self.name} email id {self.email} withdrawl is ${with_drawl} and balance is ${self.balance}")
+
+BOFA=Danielle("danielle","2435786790873","daniellerodriguez1516@gmail.com","5713636257",10000)
+BOFA.deposit(2000)
+BOFA.withdrawl(5000)
