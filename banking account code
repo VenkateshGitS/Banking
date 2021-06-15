@@ -17,6 +17,6 @@ class Danielle():
         self.balance-=with_drawl   #### this is equal to self.balance=self.balance-withdrawl
         print(f"the {self.name} email id {self.email} withdrawl is ${with_drawl} and balance is ${self.balance}")
 
-BOFA=Danielle("danielle","2435786790873","daniellerodriguez1516@gmail.com","5713636257",10000)
+BOFA=Danielle("danielle","2435786790873","daniellerodrigue@gmail.com","5713636257",10000)
 BOFA.deposit(2000)
 BOFA.withdrawl(5000)
